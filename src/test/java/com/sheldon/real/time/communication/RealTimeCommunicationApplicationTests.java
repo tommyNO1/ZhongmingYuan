@@ -20,6 +20,7 @@ public class RealTimeCommunicationApplicationTests {
     @Autowired
     private UserMapper userMapper;
 
+
     @Test
     public void contextLoads() {
         List<User> users = userMapper.selectAll();
